@@ -1,12 +1,19 @@
 import React from 'react'
+import Hero from "./sections/Hero.jsx";
+import ShowcaseSection from "./sections/ShowcaseSection.jsx";
+import NavBar from "./components/NavBar.jsx";
+import Contact from "./sections/Contact.jsx";
+import Footer from "./sections/Footer.jsx";
 
 const App = () => {
   return (
-    <main>
-        <div>
-            <h1>Welcome to my 3D Portfolio!</h1>
-        </div>
-    </main>
+    <>
+        <NavBar/>
+        <Hero/>
+        <ShowcaseSection/>
+        <Contact/>
+        <Footer/>
+    </>
   )
 }
 
